@@ -1,6 +1,6 @@
-import { Menu, X } from 'lucide-react';
-import { useState } from 'react';
-import { Button } from './Button';
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { Button } from "./Button";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,17 +16,35 @@ export function Header() {
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#platform" className="text-sm hover:text-[#00D9C0] transition-colors">
+            <a
+              href="/platform"
+              className="text-sm hover:text-[#00D9C0] transition-colors"
+            >
               Platform
             </a>
-            <a href="#solutions" className="text-sm hover:text-[#00D9C0] transition-colors">
-              Solutions
+            <a
+              href="/ai-native"
+              className="text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              AI-Native
             </a>
-            <a href="#about" className="text-sm hover:text-[#00D9C0] transition-colors">
-              About
+            <a
+              href="/sustainability"
+              className="text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              Sustainability
             </a>
-            <a href="#resources" className="text-sm hover:text-[#00D9C0] transition-colors">
-              Resources
+            <a
+              href="/use-cases"
+              className="text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              Use Cases
+            </a>
+            <a
+              href="/security"
+              className="text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              Security
             </a>
           </nav>
 
@@ -51,17 +69,35 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-[#152238] border-t border-gray-700">
           <nav className="container mx-auto px-4 py-4 space-y-4">
-            <a href="#platform" className="block text-sm hover:text-[#00D9C0] transition-colors">
+            <a
+              href="/platform"
+              className="block text-sm hover:text-[#00D9C0] transition-colors"
+            >
               Platform
             </a>
-            <a href="#solutions" className="block text-sm hover:text-[#00D9C0] transition-colors">
-              Solutions
+            <a
+              href="/ai-native"
+              className="block text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              AI-Native
             </a>
-            <a href="#about" className="block text-sm hover:text-[#00D9C0] transition-colors">
-              About
+            <a
+              href="/sustainability"
+              className="block text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              Sustainability
             </a>
-            <a href="#resources" className="block text-sm hover:text-[#00D9C0] transition-colors">
-              Resources
+            <a
+              href="/use-cases"
+              className="block text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              Use Cases
+            </a>
+            <a
+              href="/security"
+              className="block text-sm hover:text-[#00D9C0] transition-colors"
+            >
+              Security
             </a>
             <div className="pt-4 space-y-2">
               <Button variant="outline" size="sm" className="w-full">
