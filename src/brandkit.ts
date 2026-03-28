@@ -1,0 +1,87 @@
+export const brandKit = {
+  colors: {
+    primary: {
+      navy: '#0A1628',
+      navyLight: '#152238',
+      navyDark: '#050B14',
+    },
+    accent: {
+      cyan: '#00D9C0',
+      cyanLight: '#33E3D0',
+      cyanDark: '#00B89F',
+      blue: '#0066FF',
+      blueLight: '#3385FF',
+      blueDark: '#0052CC',
+    },
+    neutral: {
+      white: '#FFFFFF',
+      gray50: '#F8F9FB',
+      gray100: '#F1F3F7',
+      gray200: '#E4E7ED',
+      gray300: '#D1D5DD',
+      gray400: '#9CA3B0',
+      gray500: '#6B7280',
+      gray600: '#4B5563',
+      gray700: '#374151',
+      gray800: '#1F2937',
+      gray900: '#111827',
+    },
+  },
+  typography: {
+    fontFamily: {
+      primary: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '3.75rem',
+      '7xl': '4.5rem',
+    },
+    fontWeight: {
+      normal: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+    },
+    lineHeight: {
+      tight: 1.2,
+      normal: 1.5,
+      relaxed: 1.75,
+    },
+  },
+  spacing: {
+    section: {
+      sm: '4rem',
+      md: '6rem',
+      lg: '8rem',
+      xl: '10rem',
+    },
+    container: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1400px',
+    },
+  },
+  borderRadius: {
+    sm: '0.375rem',
+    md: '0.5rem',
+    lg: '0.75rem',
+    xl: '1rem',
+    full: '9999px',
+  },
+  shadows: {
+    sm: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
+    md: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
+    lg: '0 10px 15px -3px rgb(0 0 0 / 0.1)',
+    xl: '0 20px 25px -5px rgb(0 0 0 / 0.1)',
+  },
+};
